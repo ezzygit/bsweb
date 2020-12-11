@@ -1,0 +1,251 @@
+.header {
+    position: relative;
+        width: 100%;
+  
+      padding-top: 10px;
+      background: -webkit-linear-gradient(rgba(255, 255, 255, 0.97), rgba(237, 239, 239, 0.97));
+      background: -o-linear-gradient(rgba(255, 255, 255, 0.97), rgba(237, 239, 239, 0.97));
+      background: -moz-linear-gradient(rgba(255, 255, 255, 0.97), rgba(237, 239, 239, 0.97));
+      background: linear-gradient(rgba(255, 255, 255, 0.97), rgba(237, 239, 239, 0.97));
+      background-repeat: no-repeat;
+      border-top: 3px solid #3b98ef;
+      position: relative;
+      top: 0;
+      z-index: 9999;
+      box-shadow: 0 0 7px 2px rgba(42, 97, 162, 0.30);
+  }
+
+  .headerflex {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    width: 100%;
+    margin-top: 2px;
+    
+  }
+  
+  .flex-item {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.97), rgba(237, 239, 239, 0.97));
+    background: -o-linear-gradient(rgba(255, 255, 255, 0.97), rgba(237, 239, 239, 0.97));
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0.97), rgba(237, 239, 239, 0.97));
+    background: linear-gradient(rgba(255, 255, 255, 0.97), rgba(237, 239, 239, 0.97));
+    color: #282828;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+  }
+
+.flex-itemlogo {
+  max-width: 50%;
+}
+ 
+
+
+.fa_search_box {
+  position: relative;
+    left: 150px;
+    top: 3px;
+    color: #0075BD;
+}
+
+.green_popup_btn {
+    width: 100%;
+}
+
+
+
+
+
+.search {
+  float: left;
+  margin-right: 8px;
+}
+
+.backgroundimage {
+  position: relative;
+  background-image: src="https://www.beatlesstory.com/uploads/slider/1584547045banner img.jpg" alt="";
+}
+
+#style {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  
+}
+
+.container1 {
+  background: url(./images/wcbgFINAL.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: proxima-nova, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+
+  .welcome { 
+    color: grey;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 22px;
+    margin: 0 0 px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+  
+  .middle {
+    padding: 1% 1%;
+    font-size: 19px;
+    color:#003645;
+    line-height: 22px;
+    margin: 0 0 px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+  
+  .title_h {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 90px;
+    margin-top: 33px;
+    color: black;
+    
+  }
+  
+  
+  .imagecaption {
+    width: 53%;
+    padding: 20px;
+    background: rgba(132, 137, 139, 0.88) none repeat scroll 0 0;
+     text-align: left;
+     padding: 30px;
+     width: 42%;
+    position: absolute;
+      right: 15%;
+      bottom: 20px;
+      left: 15%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0,0,0,.6);
+      font-family: proxima-nova, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      
+  }
+
+  .captiontitle {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-shadow: none;
+  }
+
+  .blogdiv {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    background-color: lightblue;
+    
+  }
+
+  .beatles_btn_box {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 40px 0 0;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: navy;
+  }
+
+  .beatles_btn_box a {
+    font-family: 'ProximaNova-Semibold';
+    font-size: 20px;
+    text-transform: uppercase;
+    max-width: 245px;
+    height: 41px;
+    width: 100%;
+    display: inline-block;
+    padding: 6px 0;
+    margin: 0 15px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    
+  }
+
+.maintext {
+  padding: 1% 9%;
+  font-size: 19px;
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.blog {
+font-family: proxima-nova, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.signup {
+  width: auto;
+  height: auto;
+  background: url(https://www.beatlesstory.com/uploads/images/signupblack.png);
+  }
+
+.signuptext {
+  text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+font-size: 50px;
+    margin: 45px 0 35px;
+}
+
+.signuptext2 {
+  text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: proxima-nova, sans-serif;
+
+}
+
+.signbutton {
+  position: center;
+}
